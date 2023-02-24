@@ -9,8 +9,8 @@ def greeting
     puts "Hello user!"
   end
   greeting
-# What is the return value of your method?
-# How many arguments did you pass your method?
+# What is the return value of your method? the return value is "hello user!".
+# How many arguments did you pass your method? 1 argument.
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
@@ -18,9 +18,9 @@ def custom_greeting(name)
     puts "Hello #{name}!"
   end
   custom_greeting("lorenzo")
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# What is the return value of your method? the return value was "hello lorenzo!".
+# How many arguments did you pass your method? 1 argument.
+# What data type was your argument(s)? it was a string.
 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
@@ -35,17 +35,21 @@ def greet_person
       puts "my name is computer"
     end
     greet_person
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# What is the return value of your method?in my case it would be lorenzo L rivera but this all depends on the user.
+# How many arguments did you pass your method? 5 arguments.
+# What data type was your argument(s)? they were strings.
 
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# What is the return value of your method? it was 49 because that is the square of 7.
+# How many arguments did you pass your method? 1 argument.
+# What data type was your argument(s)? integer.
+def square(num = 0)
+    p num ** 2
+    end
+     square(7)
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
